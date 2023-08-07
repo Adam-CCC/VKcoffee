@@ -1,0 +1,9 @@
+.header {
+    width: 100%;
+}
+
+.inner-header {
+    color: aliceblue;
+    height: 10%;
+    background-color: #1d86ba;
+}
