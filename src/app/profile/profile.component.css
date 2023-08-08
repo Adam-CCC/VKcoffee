@@ -1,0 +1,12 @@
+.profile {
+    box-sizing: border-box;
+    width: 80%;
+    float: left;
+    padding-left: 10px;
+}
+
+.inner-profile {
+    height: 100vh;
+    color: #ffffff;
+    background-color: #1d86ba;
+}
