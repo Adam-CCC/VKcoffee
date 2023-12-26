@@ -10,6 +10,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { MessageComponent } from './message/message.component';
 import { SettingsComponent } from './settings/settings.component';
+import { NewsComponent } from './news/news.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SettingsComponent } from './settings/settings.component';
     ProfileComponent,
     NotFoundComponent,
     MessageComponent,
-    SettingsComponent
+    SettingsComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
