@@ -1,10 +1,31 @@
 .header {
     width: 100%;
     padding-bottom: 10px;
+    border-radius: 10px; /* Добавляем округление углов */
+    overflow: hidden; /* Обрезаем округленные углы, чтобы они были видны */
+    background-color: #1d86ba;
+    border-radius: 10px; /* Добавляем округление углов */
+    margin-bottom: 10px;
 }
 
 .inner-header {
-    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     height: 50px;
-    background-color: #1d86ba;
+}
+
+.vkc-icon {
+    color: aliceblue;
+    padding-left: 20px;
+    font-family: 'Arial', sans-serif; /* Выбираем красивый шрифт */
+    font-size: 24px; /* Устанавливаем размер шрифта */
+}
+
+.sign-profile {
+    color: aliceblue;
+    padding-right: 20px;
+    text-decoration: none; /* Убираем подчеркивания у ссылок */
+    font-family: 'Arial', sans-serif; /* Выбираем красивый шрифт */
+    font-size: 24px; /* Устанавливаем размер шрифта */
 }

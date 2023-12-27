@@ -5,12 +5,14 @@ import { ContentComponent } from './content/content.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { MessageComponent } from './message/message.component';
 import { SettingsComponent } from './settings/settings.component';
+import { NewsComponent } from './news/news.component';
 
 const routes: Routes = [
   {path: '', component: ContentComponent},
   {path: 'profile', component: ProfileComponent},
   {path: 'message', component: MessageComponent},
   {path: 'settings', component: SettingsComponent},
+  {path: 'news', component: NewsComponent},
   {path: '**', component: NotFoundComponent}
 
 ];

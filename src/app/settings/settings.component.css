@@ -9,4 +9,6 @@
     height: 100vh;
     color: #ffffff;
     background-color: #1d86ba;
+    border-radius: 10px; /* Добавляем округление углов */
+    padding: 15px;
 }

@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-    title = "VKC"
+    title = "VKC";
+
+    clickSign(){
+      alert("Тут будет окно входа");
+    }
 }

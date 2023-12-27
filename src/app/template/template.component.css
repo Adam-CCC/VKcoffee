@@ -3,10 +3,24 @@
     width: 20%;
     float: left;
     box-sizing: border-box;
+    border-radius: 10px; /* Добавляем округление углов */
 }
 
-.inner-template{
+.inner-template {
+    display: flex; /* Используем flexbox */
+    flex-direction: column; /* Располагаем элементы вертикально */
     height: 100vh;
     color: aliceblue;
+    border-radius: 10px; /* Добавляем округление углов */
     background-color: #1d86ba;
+    font-family: 'Arial', sans-serif; /* Выбираем красивый шрифт */
+    font-size: 24px; /* Устанавливаем размер шрифта */
+    padding-left: 20px; /* Временн решение;*/
+    padding-top: 20px; /* Временн решение*/
+}
+
+.inner-template a {
+    padding: 8px; /* Добавляем отступ для лучшего интервала между элементами */
+    text-decoration: none; /* Убираем подчеркивания у ссылок */
+    color: inherit; /* Наследуем цвет текста от родительского элемента */
 }
