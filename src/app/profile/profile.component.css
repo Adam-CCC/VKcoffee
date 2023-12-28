@@ -2,13 +2,14 @@
     box-sizing: border-box;
     width: 80%;
     float: left;
-    padding-left: 10px;
-}
-
-.inner-profile {
     height: 100vh;
-    color: #ffffff;
+    border-radius: 10px; /* Добавляем округление углов */
     background-color: #1d86ba;
     border-radius: 10px; /* Добавляем округление углов */
     padding: 15px;
+    height: 100vh;
+}
+
+.avatar-profile {
+    color: #ffffff;
 }

@@ -1,11 +1,10 @@
 .header {
-    width: 100%;
-    padding-bottom: 10px;
+    /* width: 100%; */
+    margin-bottom: 10px;
     border-radius: 10px; /* Добавляем округление углов */
     overflow: hidden; /* Обрезаем округленные углы, чтобы они были видны */
     background-color: #1d86ba;
     border-radius: 10px; /* Добавляем округление углов */
-    margin-bottom: 10px;
 }
 
 .inner-header {

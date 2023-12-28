@@ -2,14 +2,12 @@
     box-sizing: border-box;
     width: 80%;
     float: left;
-    padding-left: 10px;
-    border-radius: 10px; /* Добавляем округление углов */
-}
-
-.inner-content {
-    height: 100vh;
-    color: #ffffff;
     background-color: #1d86ba;
     border-radius: 10px; /* Добавляем округление углов */
     padding: 15px;
+    height: 100vh;
+}
+
+.inner-content {
+    color: #ffffff;
 }
