@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
     title = "VKC";
 
-    clickSign(){
-      alert("Тут будет окно входа");
+    showAlert(){
+      alert("Вход в аккаунт")
     }
 }
