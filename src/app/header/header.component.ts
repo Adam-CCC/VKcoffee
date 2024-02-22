@@ -8,7 +8,11 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
     title = "VKC";
 
-    showAlert(){
-      alert("Тут будет авторизация")
+    showAlertLogIn(){
+      alert("Тут будет вход")
+    }
+
+    showAlertSignUp(){
+      alert("Тут будет регистрация")
     }
 }
