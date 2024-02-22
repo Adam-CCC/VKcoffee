@@ -9,6 +9,6 @@ export class HeaderComponent {
     title = "VKC";
 
     showAlert(){
-      alert("Вход в аккаунт")
+      alert("Тут будет авторизация")
     }
 }

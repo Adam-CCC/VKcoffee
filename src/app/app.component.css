@@ -1,0 +1,25 @@
+/* @media (max-width: 992px) {
+    #leftPanel {
+        display: none;
+    }
+} */
+@media (max-width: 717px) and (min-width: 600px) {
+    .small-left-block {
+      font-size: 14px; /* Пример изменения размера шрифта */
+      /* Дополнительные стили, которые нужно применить к содержимому блока */
+    }
+}
+
+@media (max-width: 600px) and (min-width: 450px) {
+    .small-left-block {
+      font-size: 10px; /* Пример изменения размера шрифта */
+      /* Дополнительные стили, которые нужно применить к содержимому блока */
+    }
+}
+
+@media (max-width: 451px) {
+    .small-left-block {
+      font-size: 8px; /* Пример изменения размера шрифта */
+      /* Дополнительные стили, которые нужно применить к содержимому блока */
+    }
+}
